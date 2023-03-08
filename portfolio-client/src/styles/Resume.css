@@ -1,0 +1,12 @@
+.Resume-img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 2px;
+}
+
+.Resume-container{
+    margin: 5px auto;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    width: 30%;
+}

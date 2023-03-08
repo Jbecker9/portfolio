@@ -1,0 +1,16 @@
+.Memoroutes-Title{
+    color: white;
+    text-align: center;
+    display: inline;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.Memoroutes-Title:hover{
+    text-decoration: underline;
+}
+
+.Memoroutes-Title:visited{
+    color: white;
+    text-decoration: none;
+}

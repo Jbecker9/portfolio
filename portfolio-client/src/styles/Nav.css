@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    color: whitesmoke;
+}
+
+nav > .nav-section {
+    padding: 0 10px;
+    display: flex;
+    gap: 1rem;
+    border-left: 1px solid var(--border-color);
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-initials-section {
+    justify-content: flex-start;
+    font-size: 2rem;
+}
+
+#nav-social-section,
+#nav-projects-section {
+    gap: 3rem;
+}
+
+#nav-initials-section,
+#nav-projects-section {
+    flex-basis: calc(100% / 3);
+}
+
+#nav-social-section,
+#nav-contact-section {
+    flex-grow: 1;
+}
+
+a{
+    font-weight: 300;
+}
+
+.nav-section-contact-button{
+    cursor: pointer;
+}
+
+.nav-section-contact-button:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.nav-title{
+    cursor: pointer;
+}
+
+.nav-title:hover{
+    text-decoration: underline;
+}
+
+.nav-title:visited{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.ContactForm-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--border-color);
+    padding: 5px;
+    width: 40%;
+}
+
+.ContactForm-title{
+    color: white;
+}
+
+.ContactForm-contents{
+    width: 100%;
+    color: black;
+    margin: 3px;
+}
+
+#ContactForm-messageContent{
+    size: 500;
+    height: 50px;
+    text-align: left;
+}
+
+#ContactForm-names{
+    width: 50%;
+}

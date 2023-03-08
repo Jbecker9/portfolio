@@ -1,0 +1,28 @@
+.Projects-Container{
+    display: grid;
+}
+
+.Projects-Img{
+    width: 100%;
+    vertical-align: bottom;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.Projects-Div{
+    color: white;
+    align-items: center;
+    justify-self: center;
+    margin: 10px;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    width: 25%;
+}
+
+#Projects-Github-Link{
+    padding: 3px;
+    padding-right: 3px;
+    display: inline;
+    cursor: pointer;
+    float: right;
+}

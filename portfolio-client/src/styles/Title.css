@@ -1,0 +1,8 @@
+.Title-div {
+    display: grid;
+    height: 100%;
+    text-align: center;
+    margin: 1.5rem;
+    color: whitesmoke;
+    border: 1px solid var(--border-color);
+}

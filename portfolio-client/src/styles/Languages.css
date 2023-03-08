@@ -1,0 +1,22 @@
+.Languages-div {
+    color: rgb(113, 113, 113);
+    width: 100%;
+    margin: 0;
+}
+
+.Languages-content {
+    width: 100%;
+    /* float: left; */
+}
+
+.Languages-name{
+    color: whitesmoke;
+}
+
+p {
+    display: inline-block;
+}
+
+.Languages-formatting {
+    left: 0;
+}

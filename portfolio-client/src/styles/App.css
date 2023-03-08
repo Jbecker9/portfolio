@@ -1,0 +1,9 @@
+.Body-div{
+  display: grid;
+  height: 100%;
+}
+
+.Body-bodydiv{
+  height: 100%;
+  /* margin: auto; */
+}

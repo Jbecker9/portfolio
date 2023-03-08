@@ -1,0 +1,43 @@
+.NavButtons-div{
+    border: 1px solid var(--border-color);
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    height: 12.5%;
+    bottom: 0;
+}
+
+.Arrow-Left-Button{
+    background-color: var(--background-color);
+    text-align: center;
+    width: 50%;
+    border: 1px solid var(--border-color);
+    float: left;
+    cursor: pointer;
+    transition: 0.25s;
+    padding: 13px;
+}
+
+.Arrow-Right-Button{
+    background-color: var(--background-color);
+    text-align: center;
+    width: 50%;
+    border: 1px solid var(--border-color);
+    margin: 0;
+    float: right;
+    cursor: pointer;
+    transition: 0.25s;
+    padding: 13px;
+}
+
+.Arrow-Left-Button:hover{
+    background-color: #264b60;
+    text-align: left;
+    transform: .75s;
+}
+
+.Arrow-Right-Button:hover{
+    background-color: #264b60;
+    text-align: right;
+    transition: .75s;
+}
